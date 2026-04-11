@@ -1,0 +1,78 @@
+MODEL 1
+REMARK VINA RESULT:      -6.9      0.000      0.000
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  C_18 
+REMARK    2  A    between atoms: O_5  and  P_8 
+REMARK    3  A    between atoms: N_6  and  C_11 
+REMARK    4  A    between atoms: N_7  and  C_15 
+REMARK       I    between atoms: N_7  and  C_24 
+REMARK    5  A    between atoms: P_8  and  C_23 
+REMARK    6  A    between atoms: C_11  and  C_14 
+REMARK    7  A    between atoms: C_15  and  C_18 
+REMARK    8  A    between atoms: C_15  and  C_23 
+REMARK    9  A    between atoms: C_21  and  C_26 
+REMARK   10  A    between atoms: C_24  and  C_25 
+REMARK   11  A    between atoms: C_29  and  C_32 
+ROOT
+HETATM    1  O   UNL     1      16.222   4.274  94.122  1.00  0.00     0.000 OA
+HETATM    2  N   UNL     1      14.486   2.722  92.484  1.00  0.00     0.000 N 
+HETATM    3  C   UNL     1      14.404   4.189  92.516  1.00  0.00     0.000 C 
+HETATM    4  C   UNL     1      14.983   2.218  93.772  1.00  0.00     0.000 C 
+HETATM    5  C   UNL     1      15.770   4.776  92.863  1.00  0.00     0.000 C 
+HETATM    6  C   UNL     1      16.333   2.851  94.090  1.00  0.00     0.000 C 
+ENDROOT
+BRANCH   2   7
+HETATM    7  C   UNL     1      13.185   2.138  92.164  1.00  0.00     0.000 C 
+BRANCH   7   8
+HETATM    8  C   UNL     1      12.152   3.174  91.880  1.00  0.00     0.000 A 
+HETATM    9  C   UNL     1      11.361   3.672  92.916  1.00  0.00     0.000 A 
+HETATM   10  C   UNL     1      10.393   4.640  92.651  1.00  0.00     0.000 A 
+HETATM   11  C   UNL     1      10.216   5.111  91.351  1.00  0.00     0.000 A 
+HETATM   12  C   UNL     1      11.005   4.615  90.315  1.00  0.00     0.000 A 
+HETATM   13  C   UNL     1      11.974   3.646  90.579  1.00  0.00     0.000 A 
+BRANCH  11  14
+HETATM   14  C   UNL     1       9.224   6.105  91.079  1.00  0.00     0.000 C 
+HETATM   15  C   UNL     1       8.391   6.941  90.851  1.00  0.00     0.000 C 
+BRANCH  15  16
+HETATM   16  C   UNL     1       7.399   7.935  90.579  1.00  0.00     0.000 A 
+HETATM   17  C   UNL     1       6.124   7.816  91.131  1.00  0.00     0.000 A 
+HETATM   18  C   UNL     1       5.158   8.787  90.868  1.00  0.00     0.000 A 
+HETATM   19  C   UNL     1       5.488   9.854  90.060  1.00  0.00     0.000 A 
+HETATM   20  C   UNL     1       6.742   9.995  89.502  1.00  0.00     0.000 A 
+HETATM   21  C   UNL     1       7.709   9.024  89.765  1.00  0.00     0.000 A 
+BRANCH  19  22
+HETATM   22  C   UNL     1       4.458  10.887  89.778  1.00  0.00     0.000 C 
+HETATM   23  O   UNL     1       3.387  10.546  89.284  1.00  0.00     0.000 OA
+HETATM   24  N   UNL     1       4.790  12.189  90.129  1.00  0.00     0.000 N 
+HETATM   25  HN  UNL     1       5.686  12.392  90.557  1.00  0.00     0.000 HD
+BRANCH  24  26
+HETATM   26  C   UNL     1       3.888  13.296  89.941  1.00  0.00     0.000 C 
+BRANCH  26  27
+HETATM   27  C   UNL     1       3.292  13.807  91.260  1.00  0.00     0.000 C 
+HETATM   28  C   UNL     1       2.184  12.903  91.788  1.00  0.00     0.000 C 
+BRANCH  27  29
+HETATM   29  O   UNL     1       4.322  13.901  92.244  1.00  0.00     0.000 OA
+HETATM   30  H   UNL     1       4.907  14.639  92.003  1.00  0.00     0.000 HD
+ENDBRANCH  27  29
+ENDBRANCH  26  27
+BRANCH  26  31
+HETATM   31  C   UNL     1       4.650  14.399  89.214  1.00  0.00     0.000 C 
+HETATM   32  O   UNL     1       4.615  15.578  89.560  1.00  0.00     0.000 OA
+BRANCH  31  33
+HETATM   33  P   UNL     1       5.334  13.924  88.121  1.00  0.00     0.000 P 
+HETATM   34  H   UNL     1       5.783  15.010  87.397  1.00  0.00     0.000 HD
+BRANCH  33  35
+HETATM   35  O   UNL     1       4.601  13.102  87.253  1.00  0.00     0.000 OA
+HETATM   36  H   UNL     1       5.163  12.309  87.246  1.00  0.00     0.000 HD
+ENDBRANCH  33  35
+ENDBRANCH  31  33
+ENDBRANCH  26  31
+ENDBRANCH  24  26
+ENDBRANCH  19  22
+ENDBRANCH  15  16
+ENDBRANCH  11  14
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+TORSDOF 11
+ENDMDL
